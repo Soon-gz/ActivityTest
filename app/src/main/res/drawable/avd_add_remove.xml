@@ -1,0 +1,12 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_add">
+
+    <target
+        android:name="@string/add"
+        android:animation="@anim/add_to_remove" />
+
+    <target
+        android:name="@string/groupAddRemove"
+        android:animation="@anim/rotate_add_to_remove" />
+
+</animated-vector>
